@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+
+main{
+	width: 85%;
+	margin: auto;
+}
+
+header{
+	text-align: center;
+	font-size: 28px;
+}
+
+header>h1{
+	vertical-align: middle;
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+article img{
+	width: 70%;
+	margin: auto;
+	border-radius: 20px;
+}
+article h3{
+	font-size: 24px;
+}
+article p, article li{
+	font-size: 20px;
+}
